@@ -19,7 +19,7 @@ server.use(cookieParser());
 
 server.use(
   cors({
-    origin: "https://flutter-client.onrender.com/",
+    origin: "https://flutter-client.onrender.com",
     credentials: true,
   })
 );
